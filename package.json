@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start-01-1": "tsc && node dist/aoc-01-1.js"
-  },
+    "start-01-1": "tsc && node dist/aoc-01-1.js",
+    "start-01-2": "tsc && node dist/aoc-01-2.js"
+
+    },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LiRa-Code/adventOfCode.git"
