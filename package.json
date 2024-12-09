@@ -1,0 +1,24 @@
+{
+  "name": "adventofcode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-01-1": "tsc && node dist/aoc-01-1.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiRa-Code/adventOfCode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LiRa-Code/adventOfCode/issues"
+  },
+  "homepage": "https://github.com/LiRa-Code/adventOfCode#readme",
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "typescript": "^5.7.2"
+  }
+}
