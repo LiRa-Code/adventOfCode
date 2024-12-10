@@ -7,7 +7,9 @@
     "start-01-1": "tsc && node dist/aoc-01-1.js",
     "start-01-2": "tsc && node dist/aoc-01-2.js",
     "start-02-1": "tsc && node dist/aoc-02-1.js",
-    "start-02-2": "tsc && node dist/aoc-02-2.js"
+    "start-02-2": "tsc && node dist/aoc-02-2.js",
+    "start-03-1": "tsc && node dist/aoc-03-1.js"
+
 
 
     },
