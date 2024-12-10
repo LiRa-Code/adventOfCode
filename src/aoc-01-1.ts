@@ -1,4 +1,3 @@
-import { transcode } from 'buffer';
 import * as fs from 'fs';
 
 const readInputFile = (filePath: string): string => {
@@ -26,7 +25,7 @@ const processColumns = (lines: string[]): { left: number[], right: number[]} => 
         if (parts.length !== 2) {
             console.error(`Invalid line, 3 Values Expected: "${trimmedLine}"`);
             continue;
-        }
+        }console.log()
         const leftValue = parseFloat(parts[0]);
         const rightValue = parseFloat(parts[1]);
         if (isNaN(leftValue) || isNaN(rightValue)) {
